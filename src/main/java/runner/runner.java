@@ -16,9 +16,10 @@ public class runner {
 		String line = "";
 		String iden = bin2str(lines[0]);
 		if ( iden.equals("SEEK") ) {
+			lines = Arrays.copyOfRange(lines, 1, lines.length);
 			for (String bline : lines) {
 				line = bin2str(line);
-				if ( line.split(" ")[0] == "print" ) {
+				if ( line.split(" ")[0].equals("print") ) {
 					System.out.println(line.split(" ")[1]);
 				} else {
 					System.out.println("Invalid code");
