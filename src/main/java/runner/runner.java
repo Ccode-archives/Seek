@@ -18,7 +18,7 @@ public class runner {
 		if ( iden.equals("SEEK") ) {
 			lines = Arrays.copyOfRange(lines, 1, lines.length);
 			for (String bline : lines) {
-				if ( ! bline == "" ) {
+				if ( bline != "" ) {
 					line = bin2str(bline);
 				}
 				if ( line.split(" ")[0].equals("print") ) {
