@@ -21,7 +21,7 @@ public class runner {
 					System.out.println(line.split(" ")[1]);
 				} else {
 					System.out.println("Invalid code");
-					System.exit("50");
+					System.exit(50);
 				}
 			}
 		}
