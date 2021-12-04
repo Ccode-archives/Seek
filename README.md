@@ -1,5 +1,5 @@
 # Seek
-a language written in java (WIP)
+a language written in java (WIP because there is no binary executor yet)
 # planned features
  * low size binaries:
 Current binary size of hello world in different langs:  
