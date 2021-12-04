@@ -14,7 +14,8 @@ public class runner {
 	
 	public static void run(String[] lines) {
 		String line = "";
-		if ( bin2str(lines[0]) == "SEEK" ) {
+		String iden = bin2str(lines[0])
+		if ( iden == "SEEK" ) {
 			for (String bline : lines) {
 				line = bin2str(line);
 				if ( line.split(" ")[0] == "print" ) {
