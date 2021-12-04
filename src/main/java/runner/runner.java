@@ -20,6 +20,8 @@ public class runner {
 			for (String bline : lines) {
 				if ( bline != "" ) {
 					line = bin2str(bline);
+				} else {
+					line = ""
 				}
 				if ( line.split(" ")[0].equals("print") ) {
 					System.out.println(String.join(" ", Arrays.copyOfRange(line.split(" "), 1, line.split(" ").length)));
