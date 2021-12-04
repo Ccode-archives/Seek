@@ -20,7 +20,7 @@ public class runner {
 			for (String bline : lines) {
 				line = bin2str(bline);
 				if ( line.split(" ")[0].equals("print") ) {
-					System.out.println(line.split(" ")[1]);
+					System.out.println(String.join(" ", Arrays.copyOfRange(line.split(" "), 1, line.split(" ").length)));
 				} else {
 					System.out.println("Invalid code");
 					System.exit(50);
