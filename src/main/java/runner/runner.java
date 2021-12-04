@@ -21,6 +21,8 @@ public class runner {
 				line = bin2str(bline);
 				if ( line.split(" ")[0].equals("print") ) {
 					System.out.println(String.join(" ", Arrays.copyOfRange(line.split(" "), 1, line.split(" ").length)));
+				} else if ( line.split(" ")[0].equals("") ) {
+					;
 				} else {
 					System.out.println("Invalid code");
 					System.exit(50);
