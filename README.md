@@ -6,10 +6,10 @@ Current binary size of hello world in different langs:
 Seek : 189 bytes  
 java : 425 bytes
 # currently planned workflow for compiler
- * load text file
+ * load text file ☑️
  * check syntax
- * make pure binary
+ * make pure binary ☑️
 # currently planned workflow for runner
- * load text file
- * get commands that are run their
- * run them
+ * load text file ☑️
+ * get commands that are run their ☑️
+ * run them ☑️
