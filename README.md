@@ -3,7 +3,7 @@ a language written in java (WIP because there is no binary executor yet)
 # planned features
  * low size binaries:
 Current binary size of hello world in different langs:  
-Seek : 207 bytes  
+Seek : 189 bytes  
 java : 425 bytes
 # currently planned workflow for compiler
  * load text file
