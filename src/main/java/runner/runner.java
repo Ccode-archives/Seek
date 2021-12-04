@@ -18,10 +18,10 @@ public class runner {
 		if ( iden.equals("SEEK") ) {
 			lines = Arrays.copyOfRange(lines, 1, lines.length);
 			for (String bline : lines) {
-				if ( bline != "" ) {
-					line = bin2str(bline);
-				} else {
+				if ( bline.equals("") ) {
 					line = "";
+				} else {
+					line = bin2str(bline);
 				}
 				if ( line.split(" ")[0].equals("print") ) {
 					System.out.println(String.join(" ", Arrays.copyOfRange(line.split(" "), 1, line.split(" ").length)));
