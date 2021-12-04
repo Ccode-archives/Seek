@@ -13,15 +13,15 @@ public class runner {
 	}
 	
 	public static void run(String[] lines) {
-		private String line = "";
-		if ( bin2str(bline) == "SEEK" ) {
+		String line = "";
+		if ( bin2str(lines[0]) == "SEEK" ) {
 			for (String bline : lines) {
 				line = bin2str(line);
 				if ( line.split(" ")[0] == "print" ) {
 					System.out.println(line.split(" ")[1]);
 				} else {
 					System.out.println("Invalid code");
-					System.exit("50")
+					System.exit("50");
 				}
 			}
 		}
