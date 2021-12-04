@@ -4,7 +4,7 @@ a language written in java (WIP because there is no binary executor yet)
  * low size binaries:
 Current binary size of hello world in different langs:  
 Seek : 189 bytes  
-java : 425 bytes
+java11 : 425 bytes
 # currently planned workflow for compiler
  * load text file ☑️
  * check syntax
