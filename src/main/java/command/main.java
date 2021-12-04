@@ -10,8 +10,6 @@ public class main {
         String[] lines = filereader.read("test.seek");
         compiler.compile(lines, "test.seekc");
         lines = filereader.read("test.seekc");
-        for (String line : lines) {
-            System.out.println(runner.bin2str(line));
-        }
+        runner.run(lines);
     }
 }
