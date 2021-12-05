@@ -1,5 +1,7 @@
 package runner;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
@@ -10,6 +12,13 @@ public class runner {
                 .map(Character::toString)
                 .collect(Collectors.joining());
         return raw;
+	}
+	
+	public static boolean containsLetters(String text) {
+		Pattern pattern = Pattern.compile(".*[a-zA-Z].*");
+		Matcher matcher = pattern.matcher(text);
+		Boolean matches = matcher.matches();
+		return matches;
 	}
 	
 	public static void run(String[] lines) {
