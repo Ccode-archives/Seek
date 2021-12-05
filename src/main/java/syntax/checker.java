@@ -21,7 +21,7 @@ public class checker {
                 System.out.println("Error: " + line.trim());
                 correct = false;
             }
-            
+            return correct;
             
         }
     }
