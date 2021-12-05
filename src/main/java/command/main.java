@@ -4,6 +4,7 @@ package command;
 import comp.compiler;
 import runner.runner;
 import fileread.filereader;
+import syntax.checker;
 
 
 
@@ -16,7 +17,11 @@ public class main {
         }
         if ( args[0].equals("comp") ) {
             lines = filereader.read(args[1]);
-            compiler.compile(lines, args[2]);
+            if ( checker.check(lines) ) {
+                compiler.compile(lines, args[2]);
+            } else {
+                System.out.println("\n\nSyntax errors, check above.");
+            }
         } else if ( args[0].equals("run") ) {
             lines = filereader.read(args[1]);
             runner.run(lines);
