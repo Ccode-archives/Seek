@@ -1,18 +1,10 @@
 # Seek
-A language written in java for educational purposes. (WIP no syntax checker)
+A language written in java for educational purposes.
 # planned features
  * low size binaries:
 Current binary size of hello world in different langs:  
 Seek : 189 bytes  
 java11 : 425 bytes
-# currently planned workflow for compiler
- * load text file ☑️
- * check syntax
- * make pure binary ☑️
-# currently planned workflow for runner
- * load text file ☑️
- * get commands that are run their ☑️
- * run them ☑️
 # How to build
 Use java 11 for builds.  
 ```
@@ -32,3 +24,10 @@ Building files
 ```
 java -jar lang -jar comp <file to compile> <destination of binary>
 ```
+# syntax
+## print
+```
+print <what to print>
+```
+## pass
+just the comment start word.
