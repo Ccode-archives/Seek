@@ -11,7 +11,7 @@ public class main {
     String[] lines;
     public static void main(String[] args) {
         if ( args.length == 0 ) {
-            System.out.println("Invalid arguments")
+            System.out.println("Invalid arguments");
             System.exit(1);
         }
         if ( args[0].equals("comp") ) {
