@@ -24,6 +24,9 @@ public class main {
                 lines = filereader.read(args[1]);
                 runner.run(lines);
             }
+        } else {
+            System.out.println("Invalid arguments");
+            System.exit(1);
         }
     }
 }
