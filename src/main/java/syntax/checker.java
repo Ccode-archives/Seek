@@ -19,7 +19,7 @@ public class checker {
                 ;
             } else {
                 System.out.println("Error: " + line.trim());
-                correct = false
+                correct = false;
             }
             
             
