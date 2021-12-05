@@ -36,6 +36,8 @@ public class runner {
 				} else {
 					line = bin2str(bline);
 				}
+				
+				
 				if ( line.split(" ")[0].equals("print") ) {
 					System.out.println(String.join(" ", Arrays.copyOfRange(line.split(" "), 1, line.split(" ").length)));
 				} else if ( line.split(" ")[0].equals("") ) {
