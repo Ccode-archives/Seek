@@ -26,6 +26,7 @@ public class runner {
 		if ( containsLetters(lines[0]) || lines[0].trim().equals("") ) {
 			System.out.println("invalid code");
 			System.exit(50);
+		}
 		String iden = bin2str(lines[0]);
 		if ( iden.equals("SEEK") ) {
 			lines = Arrays.copyOfRange(lines, 1, lines.length);
