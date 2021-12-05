@@ -1,4 +1,4 @@
-
+package syntax;
 
 public class checker {
     public static boolean check(String[] lines) {
