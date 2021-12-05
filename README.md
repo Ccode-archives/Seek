@@ -1,5 +1,5 @@
 # Seek
-A language written in java (WIP no syntax checker)
+A language written in java for educational purposes. (WIP no syntax checker)
 # planned features
  * low size binaries:
 Current binary size of hello world in different langs:  
