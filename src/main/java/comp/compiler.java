@@ -17,7 +17,11 @@ public class compiler {
 	public static void compile(String[] lines, String filename) {
 		create(filename);
 		for (String line : lines) {
-			out = out + convertStringToBinary(line).trim() + "\n";
+			if ( line.trim().equals("") ) {
+				;
+			} else {
+				out = out + convertStringToBinary(line).trim() + "\n";
+			}
 		}
 		flush(filename);
 	}
