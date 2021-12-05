@@ -1,10 +1,14 @@
 # Seek
 A language written in java for educational purposes.
-# planned features
+# Features
  * low size binaries:
 Current binary size of hello world in different langs:  
 Seek : 189 bytes  
 java11 : 425 bytes
+ * fast execution
+ * Simple compiled files
+# todo
+ * Built in decompiler
 # How to build
 Use java 11 for builds.  
 ```
