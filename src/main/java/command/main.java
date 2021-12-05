@@ -6,12 +6,13 @@ import runner.runner;
 import fileread.filereader;
 
 
-private static String[] lines = filereader.read("test.seek");
 
 public class main {
+    String[] lines;
     public static void main(String[] args) {
         if ( args.length == 0 ) {
-            System.out.println()
+            System.out.println("Invalid arguments")
+            System.exit(1);
         }
         if ( args[0].equals("comp") ) {
             if ( args.length > 3 || args.length < 3 ) {
