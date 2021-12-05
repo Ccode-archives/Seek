@@ -9,13 +9,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+// Todo: explain what everything here does
+
 public class compiler {
 	public static String out = convertStringToBinary("SEEK") + "\n";
 	//compiler
 	public static void compile(String[] lines, String filename) {
 		create(filename);
 		for (String line : lines) {
-			out = out + convertStringToBinary(line) + "\n";
+			out = out + convertStringToBinary(line).trim() + "\n";
 		}
 		flush(filename);
 	}
