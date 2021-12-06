@@ -1,5 +1,6 @@
 # Seek
 A language written in java for educational purposes.
+> develeopment is over. This project was just for the fun of it.
 # Features
  * low size binaries:
 Current binary size of hello world in different langs:  
