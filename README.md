@@ -1,6 +1,6 @@
 # Seek
 A language written in java for educational purposes.
-> develeopment is over. This project was just for the fun of it.
+> develeopment is over. This project was just for the fun of it.  also it does not compile to binary.
 # Features
  * low size binaries:
 Current binary size of hello world in different langs:  
